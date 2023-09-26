@@ -1,1 +1,44 @@
-[{"courseName":"CSE111","credit":"1","grade":"O","improvedGrade":"O"},{"courseName":"CSE326","credit":"3","grade":"O","improvedGrade":"O"},{"courseName":"INT108","credit":"4","grade":"O","improvedGrade":"O"},{"courseName":"MEC135","credit":"3","grade":"O","improvedGrade":"O"},{"courseName":"MTH174","credit":"4","grade":"B","improvedGrade":"B"},{"courseName":"PES138","credit":"3","grade":"B+","improvedGrade":"B+"},{"courseName":"PHY110","credit":"3","grade":"B+","improvedGrade":"B+"}]
+[
+    {
+        "courseName": "CSE111",
+        "credit": "1",
+        "grade": "O",
+        "improvedGrade": "O"
+    },
+    {
+        "courseName": "CSE326",
+        "credit": "3",
+        "grade": "O",
+        "improvedGrade": "O"
+    },
+    {
+        "courseName": "INT108",
+        "credit": "4",
+        "grade": "O",
+        "improvedGrade": "O"
+    },
+    {
+        "courseName": "MEC135",
+        "credit": "3",
+        "grade": "O",
+        "improvedGrade": "O"
+    },
+    {
+        "courseName": "MTH174",
+        "credit": "4",
+        "grade": "B",
+        "improvedGrade": "B"
+    },
+    {
+        "courseName": "PES138",
+        "credit": "3",
+        "grade": "B+",
+        "improvedGrade": "B+"
+    },
+    {
+        "courseName": "PHY110",
+        "credit": "3",
+        "grade": "B+",
+        "improvedGrade": "B+"
+    }
+]
