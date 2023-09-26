@@ -1,5 +1,7 @@
 # CGPA-Calculator
 
+<a href="https://anonys6.github.io/CGPA-Calculator/" target="_blank">Calculate CGPA</a><br>
+
 This program is a CGPA (Cumulative Grade Point Average) calculator implemented in HTML, CSS, and JavaScript. It allows the user to enter the number of courses they have taken, and for each course, they can input the course name, credit hours, grade received, and an improved grade if applicable.
 
 The program calculates the CGPA based on the grades and credit hours entered by the user. The grade is entered as a string (for example, "O", "A+", etc.), and the corresponding numeric value is displayed in the "Grade Value" column. The CGPA is then calculated and displayed below the table.
