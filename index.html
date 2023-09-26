@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>CGPA Calculator</h2>
+
+    <p>Enter the total number of courses: <input type="number" id="numCourses" value="2"></p>
+    <button onclick="createTable()">Create Table</button>
+    <button onclick="exportData()">Export Data</button>
+    <input type="file" id="importFile" onchange="importData()">
+
+    <div id="tableDiv"></div>
+
+    <p id="cgpa"></p>
+    <p id="improvedCgpa"></p>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
