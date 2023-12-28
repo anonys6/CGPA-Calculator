@@ -1,15 +1,32 @@
-# CGPA-Calculator
+# CGPA Calculator
 
-<a href="https://anonys6.github.io/CGPA-Calculator/" target="_blank">Calculate CGPA</a><br>
+This is a simple CGPA (Cumulative Grade Point Average) calculator built with HTML, CSS, and JavaScript.
 
-This program is a CGPA (Cumulative Grade Point Average) calculator implemented in HTML, CSS, and JavaScript. It allows the user to enter the number of courses they have taken, and for each course, they can input the course name, credit hours, grade received, and an improved grade if applicable.
+## Features
 
-The program calculates the CGPA based on the grades and credit hours entered by the user. The grade is entered as a string (for example, "O", "A+", etc.), and the corresponding numeric value is displayed in the "Grade Value" column. The CGPA is then calculated and displayed below the table.
+- Allows you to enter the total number of courses.
+- Generates a table for inputting course details.
+- Calculates CGPA based on the grades and credits of the courses.
+- Provides an option to export the data.
+- Provides an option to import previously exported data.
 
-The program also calculates an improved CGPA using the improved grades entered by the user. The improved grade is also entered as a string, and its corresponding numeric value is displayed in the "Improved Grade Value" column. The improved CGPA is calculated in the same way as the original CGPA and is displayed next to it.
+## Usage
 
-The program also provides the functionality to export the current records to a JSON file. The user can download this file and use it later to import the records back into the program. This is done through the "Export Data" button, which creates a downloadable JSON file containing the current records when clicked, and a file input element that reads a JSON file and imports the records when a file is selected. The imported records are used to recreate the table and recalculate the CGPA and improved CGPA. 
+1. Enter the total number of courses.
+2. Click on "Create Table" button.
+3. Fill in the course details in the table.
+4. The CGPA will be calculated automatically as you fill in the grades.
+5. You can export the data by clicking on "Export Data" button.
+6. You can import previously exported data by choosing a file in the file input.
 
-This program is dynamic and updates the CGPA and improved CGPA whenever a grade or improved grade input field is changed. The table can be recreated with a different number of courses by changing the number in the input field and clicking the "Create Table" button again. The CGPA and improved CGPA are recalculated whenever the table is recreated. 
+## Live Demo
 
-In summary, this program provides a user-friendly interface for students to calculate their CGPA, see the effect of improving their grades, and save their records for future reference. It's a handy tool for academic planning and goal setting.
+You can check out the live demo of the application [here](https://anonys6.github.io/CGPA-Calculator/).
+
+## Author
+
+- Md Shakib Alam - [@anonys6](https://github.com/anonys6)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
