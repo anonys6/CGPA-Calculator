@@ -96,41 +96,41 @@ function calculateCGPA() {
         var gradeValue;
         var improvedGradeValue;
 
-        if (grade == "O") {
+        if (grade == "O" || grade == "o") {
             gradeValue = 10;
-        } else if (grade == "A+") {
+        } else if (grade == "A+" || grade == "a+") {
             gradeValue = 9;
-        } else if (grade == "A") {
+        } else if (grade == "A" || grade == "a") {
             gradeValue = 8;
-        } else if (grade == "B+") {
+        } else if (grade == "B+" || grade == "b+") {
             gradeValue = 7;
-        } else if (grade == "B") {
+        } else if (grade == "B" || grade == "b") {
             gradeValue = 6;
-        } else if (grade == "C") {
+        } else if (grade == "C" || grade == "c") {
             gradeValue = 5;
-        } else if (grade == "D") {
+        } else if (grade == "D" || grade == "d") {
             gradeValue = 4;
-        } else if (grade == "E") {
+        } else if (grade == "E" || grade == "e") {
             gradeValue = 0;
         } else {
             gradeValue = "Invalid grade";
         }
 
-        if (improvedGrade == "O") {
+        if (improvedGrade == "O" || improvedGrade == "o") {
             improvedGradeValue = 10;
-        } else if (improvedGrade == "A+") {
+        } else if (improvedGrade == "A+" || improvedGrade == "a+") {
             improvedGradeValue = 9;
-        } else if (improvedGrade == "A") {
+        } else if (improvedGrade == "A" || improvedGrade == "a") {
             improvedGradeValue = 8;
-        } else if (improvedGrade == "B+") {
+        } else if (improvedGrade == "B+" || improvedGrade == "b+") {
             improvedGradeValue = 7;
-        } else if (improvedGrade == "B") {
+        } else if (improvedGrade == "B" || improvedGrade == "b") {
             improvedGradeValue = 6;
-        } else if (improvedGrade == "C") {
+        } else if (improvedGrade == "C" || improvedGrade == "c") {
             improvedGradeValue = 5;
-        } else if (improvedGrade == "D") {
+        } else if (improvedGrade == "D" || improvedGrade == "d") {
             improvedGradeValue = 4;
-        } else if (improvedGrade == "E") {
+        } else if (improvedGrade == "E" || improvedGrade == "e") {
             improvedGradeValue = 0;
         } else {
             improvedGradeValue = "Invalid grade";
